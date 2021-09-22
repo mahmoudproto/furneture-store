@@ -1,0 +1,18 @@
+
+<div class="row " style="padding: 20px;"(click)="viewItemDetails()" >
+
+
+  <div class="card">
+
+    <img class="card-img-top" [src]="item.imgurl" onerror="this.onerror=null; this.src='assets/images-and-icons/Image@1x.png'"  >
+
+    <div class="container">
+      <h4><b>{{item.name}}</b></h4>
+      <p>{{item.price}}</p>
+    </div>
+  </div>
+
+</div>
+<br>
+
+

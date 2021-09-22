@@ -1,0 +1,31 @@
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+
+  <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+      aria-expanded="false" aria-label="Toggle navigation">
+
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavId">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+              <a class="nav-link " routerLink="/UserHome" routerLinkActive="active">Home <span class="sr-only">(current)</span></a>
+          </li>
+
+          <li ngbDropdown class="nav-item">
+            <a href (click)="false" class="nav-link" ngbDropdownToggle>Categories</a>
+            <div ngbDropdownMenu>
+              <button ngbDropdownItem>Action</button>
+              <button ngbDropdownItem>Another action</button>
+              <button ngbDropdownItem>Something else here</button>
+              <div class="dropdown-divider"></div>
+              <button ngbDropdownItem>Separated link</button>
+            </div>
+          </li>
+      </ul>
+      <div class="my-2 my-lg-0">
+          <button class="btn btn-secondary mr-sm-2" routerLink="/login"><img src="assets/images-and-icons/person-fill.svg"></button>
+
+          <button class="btn btn-secondary  my-2 my-sm-0" routerLink="/cart"><img src="assets/images-and-icons/cart-fill.svg"></button>
+      </div>
+  </div>
+</nav>

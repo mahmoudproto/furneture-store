@@ -1,0 +1,32 @@
+
+<br><br><br>
+<div class="row">
+
+  <div class="col-md-2"></div>
+
+  <div class="col-md-4">
+    <img [src]="item.imgurl">
+
+  </div>
+
+
+  <div class="col-md-4">
+
+    <p>
+      {{item.description}}
+    </p>
+
+    <label style="border-style: solid;">&nbsp; {{item.name}} &nbsp;</label>
+
+
+    <label style="margin-left: 15%;">1/{{item.quentity}}</label>
+
+    <button class="btn btn-primary" style="float:right" (click)="addToCart()">Add to Cart </button>
+  </div>
+
+  <div class="col-md-2"></div>
+
+
+</div>
+
+

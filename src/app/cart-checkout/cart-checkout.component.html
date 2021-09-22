@@ -1,0 +1,25 @@
+
+
+  <div class="" style="float: right; ;margin-right: 30%;">
+    <br><br><br><br><br><br>
+
+    <div class="row" style=" position: fixed; ">
+        <button class="btn btn-system "  >
+          Total Items :{{totalItemsCount}} Total price: {{totalPrice}} $
+        </button>
+    </div>
+
+    <br><br><br>
+
+    <div class="row" style="position: fixed;">
+      <button class="btn btn-primary "  >
+        Check-Out
+      </button>
+  </div>
+
+  </div>
+
+<div *ngFor="let item of cartItemsList">
+<app-cart-item [cartitem]="item" (QuantityChange)="calculatePrice()"></app-cart-item>
+</div>
+

@@ -1,0 +1,24 @@
+
+.headerbutton{left: 137px;
+top: 49px;
+width: 270px;
+height: 70px;
+line-height: 29px;
+background-color: rgba(255, 255, 255, 100);
+color: rgba(16, 16, 16, 100);
+font-size: 20px;
+text-align: center;
+}
+
+.headerspan{
+  left: 0px;
+top: 0px;
+height: 169px;
+line-height: 20px;
+background-color: rgba(224, 224, 224, 100);
+text-align: center;
+}
+
+.centervertical{
+  margin-top: 3.5%;
+}

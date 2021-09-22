@@ -1,0 +1,21 @@
+
+<br><br>
+<div class=" row">
+<div class="col-md-6 container">
+    <div class="row" >
+
+      <div class="col-md-5">
+        <img  src='assets/images-and-icons/Image@1x.png' style="width:150px;height:150px;" >
+      </div>
+
+      <div class="col-md-4" style="padding: 12px;">
+        <label style="border-style: dashed;border-width: 1px;">&nbsp; {{cartitem.name}} &nbsp;</label> <br>
+         quantity <input [(ngModel)]="quantity" style="border-style: dashed;border-width: 1px;" type="number" (change)="onQuantityChanged()"
+         ><br>
+        <label style="border-style: dashed;border-width: 1px;">&nbsp; price:{{cartitem.price}} &nbsp;</label> <br>
+        <label style="border-style: dashed;border-width: 1px;">&nbsp; delete &nbsp;</label> <br>
+      </div>
+
+    </div>
+</div>
+</div>
